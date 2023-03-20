@@ -58,7 +58,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
         ........................
         `, mySprite, 30, 30)
 })
-game.onUpdateInterval(500, function () {
+game.onUpdateInterval(200, function () {
     let myfood: Sprite = null
     JohnDoe = sprites.create(img`
         ........................
